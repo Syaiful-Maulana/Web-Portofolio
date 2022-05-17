@@ -48,7 +48,6 @@ yarn-error.log*
 **/public/worker-*.js.map
 **/public/projects
 
-# Public
-/public
+
 
 
