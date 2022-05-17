@@ -9,14 +9,14 @@ export const projects: Project[] = [
   //   picture: 'translate-banner.jpg',
   //   repoLink: 'https://github.com/tfkhdyt/translate-bot',
   // },
-  // {
-  //   name: 'Portfolio Website',
-  //   description: "You're here",
-  //   type: ProjectType.WEB,
-  //   tags: ['TypeScript', 'Next.js', 'Tailwind CSS'],
-  //   picture: 'web-portfolio.jpg',
-  //   repoLink: 'https://github.com/tfkhdyt/web-portfolio',
-  // },
+  {
+    name: 'Portfolio Website',
+    description: "You're here",
+    type: ProjectType.WEB,
+    tags: ['TypeScript', 'Next.js', 'Tailwind CSS'],
+    picture: 'webPortofolio.jpg',
+    repoLink: 'https://github.com/Syaiful-Maulana/Web-Portofolio',
+  },
   // {
   //   name: 'Random Quote Generator',
   //   description: 'A web app that will generate a random quote for you',

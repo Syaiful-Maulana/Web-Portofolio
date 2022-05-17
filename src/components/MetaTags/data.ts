@@ -1,17 +1,17 @@
 export default {
   header: 'Syaiful Maulana - Portfolio Website',
   title: 'Syaiful Maulana - Portfolio Website',
-  favicon: '/thumbnail.jpg',
-  link: 'https://tfkhdyt.my.id',
+  favicon: '',
+  link: 'https://syaifulmaula-portfolio.herokuapp.com/',
   deskripsi:
-    "Hi everyone, my name is Syaiful Maulana. I'm a Full Stack Developer, Informatics Student, YouTuber, Free/Libre and Open Source Software Enthusiast, and Professional Googler.",
-  thumbnail: '/thumbnail.jpg',
+    "Hi everyone, my name is Syaiful Maulana. I'm a Back-End Developer, Informatics Student.",
+  thumbnail: '',
   keywords: [
     'Portofolio web Syaiful Maulana',
     'Syaiful Maulana web portfolio',
     'Portofolio web Syaiful Maulana',
     'Syaiful Maulana web portfolio',
-    'Portofolio web tfkhdyt',
-    'Tfkhdyt web portfolio',
+    'Portofolio web Syaiful',
+    'Syaiful web portfolio',
   ],
 };
