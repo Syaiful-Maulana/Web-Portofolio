@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { handleDrawer } from '../../lib/scroll-to-section/scroll-to-section';
 import { menu } from '../Layout/data';
-// import Icon from './Icon';
+import Icon from './Icon';
 
 const getIsThemeDark = () => {
   if (typeof window !== 'undefined') {
@@ -35,7 +35,7 @@ const Navbar = () => {
     >
       <div className='flex-none md:hidden'>
         <label htmlFor='my-drawer-3' className='btn btn-ghost btn-square'>
-          {/* <svg
+          <svg
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
             viewBox='0 0 24 24'
@@ -47,7 +47,7 @@ const Navbar = () => {
               strokeWidth='2'
               d='M4 6h16M4 12h16M4 18h16'
             ></path>
-          </svg> */}
+          </svg>
         </label>
       </div>
       <div
@@ -55,7 +55,6 @@ const Navbar = () => {
           scrollY <= 140 && 'opacity-0'
         }`}
       >
-        {/* <Icon /> */}
         <span>SYAIFUL MAULA</span>
       </div>
       <div className='hidden flex-none md:block'>

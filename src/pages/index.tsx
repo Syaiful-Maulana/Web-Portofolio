@@ -18,9 +18,32 @@ import MetaTags from '../components/MetaTags/MetaTags';
 import Projects from '../components/Projects/Projects';
 import Resume from '../components/Resume/Resume';
 import Skills from '../components/Skills/Skills';
-import { setPageViews } from '../redux/slices/umami.slice';
+// import { setPageViews } from '../redux/slices/umami.slice';
 
 import 'react-toastify/dist/ReactToastify.min.css';
+
+// export const getServerSideProps: GetServerSideProps = async () => {
+//   const data = await axios.get(`${BASE_URL}/api/umami/stats`).catch((err) => {
+//     throw new Error(err.message);
+//   });
+//   return {
+//     props: {
+//       data: data.data,
+//     },
+//   };
+// };
+//
+// interface IValue {
+//   value: number;
+// }
+//
+// interface IPageViews {
+//   pageviews: IValue;
+// }
+//
+// interface IVisitorsProps {
+//   data: IPageViews;
+// }
 
 const BASE_URL = process.env.BASE_URL;
 

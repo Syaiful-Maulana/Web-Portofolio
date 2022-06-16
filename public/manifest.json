@@ -6,5 +6,27 @@
   "start_url": "/",
   "name": "Syaiful Maulana - Portfolio Website",
   "short_name": "TFKHDYT",
-  "description": "Syaiful Maulana's Portfolio Website"
+  "description": "Syaiful Maulana's Portfolio Website",
+  "icons": [
+    {
+      "src": "#",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "#",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "#",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "#",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
