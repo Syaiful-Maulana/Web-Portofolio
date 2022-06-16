@@ -9,4 +9,13 @@ export const projects: Project[] = [
     picture: 'webPortofolio.jpg',
     repoLink: 'https://github.com/Syaiful-Maulana/Web-Portofolio',
   },
+
+  {
+    name: 'Games API',
+    description: 'REST API ',
+    type: ProjectType.API,
+    tags: ['NodesJs', 'ExpressJs', 'Sequelize'],
+    picture: 'apiGame.jpg',
+    repoLink: '#',
+  },
 ];

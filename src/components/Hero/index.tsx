@@ -51,6 +51,11 @@ const Hero = () => {
                   to='to-violet-600'
                   style='inline font-semibold'
                 >
+                  {/* <GradientText
+                  from='from-rose-400'
+                  to='to-violet-600'
+                  style='inline font-semibold'
+                > */}
                   Back-End Developer
                 </GradientText>{' '}
                 from Kudus, Indonesia

@@ -72,14 +72,19 @@ const About = () => {
             >
               <p>
                 Hi everyone, my name is{' '}
+                {/* <GradientText
+                  from='from-fuchsia-200'
+                  to='to-fuchsia-400'
+                  style='inline font-bold'
+                > */}
                 <GradientText
                   from='from-rose-600'
                   to='to-indigo-600'
                   style='inline font-bold'
                 >
-                  Muhammad Syaiful Maulana
-                </GradientText>
-                . I'm a BackEnd Developer, Informatics Student.
+                <u>Muhammad Syaiful Maulana</u>
+                </GradientText> . I'm a BackEnd Developer, Informatics
+                Student.
               </p>
               {about.description.map((value, i) => {
                 let arr: string[] = [];

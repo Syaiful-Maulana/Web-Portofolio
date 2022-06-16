@@ -98,7 +98,7 @@ const Resume = () => {
             Resume
           </motion.div>
           <div className='grid grid-cols-1 gap-8'>
-            {/* <motion.div
+            <motion.div
               variants={variants}
               initial='fromBottom'
               whileInView='toTop'
@@ -107,20 +107,17 @@ const Resume = () => {
               <h1 className='mb-4 text-2xl font-bold text-base-100'>
                 Work Experience
               </h1>
+
               <Card
                 title='Internship'
-                location='PT. Inovindo Digital Media'
-                time='Jan 2019 - Mar 2019'
+                location='PT. Sagara Asia Teknologi'
+                time='Jun 2022 - Aug 2022'
               >
                 <ul className='ml-6 list-disc font-light'>
                   <li>Web Hosting Service</li>
-                  <li>Google SEO</li>
-                  <li>Database Management</li>
-                  <li>E-commerce Website Development</li>
-                  <li>Blog Article Publishing</li>
                 </ul>
               </Card>
-            </motion.div> */}
+            </motion.div>
             <motion.div
               variants={variants}
               initial='fromBottom'
@@ -179,6 +176,23 @@ const Resume = () => {
                       }}
                       options={chartKuliahOptions}
                     />
+                  </div>
+                </Card>
+                <Card
+                  title='Bootcamp'
+                  location='Binar Academy'
+                  jurusan='Backend Javascript'
+                  time='Feb 2022 - Jul 2022'
+                >
+                  <div className='min-h-[200px] text-base-content'>
+                    <ul className='ml-6 list-disc font-light'>
+                      <li>Learning REST API with Node Js</li>
+                      <li>Database Management System</li>
+                      <li>ORM(Object Relational Mapping)</li>
+                      <li>Tenting</li>
+                      <li>Cloud and Server</li>
+                      <li>E-commerce Website Development</li>
+                    </ul>
                   </div>
                 </Card>
               </div>

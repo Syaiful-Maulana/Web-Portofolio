@@ -36,7 +36,7 @@ export default class MyDocument extends Document {
             rel='stylesheet'
           />
           <link rel='manifest' href='/manifest.json' />
-          <link rel='apple-touch-icon' href='/icon-512x512.png' />
+          {/* <link rel='apple-touch-icon' href='/icon-512x512.png' /> */}
           <meta name='theme-color' content='#3B82F6' />
           <script
             async
