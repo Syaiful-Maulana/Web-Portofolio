@@ -107,16 +107,42 @@ const Resume = () => {
               <h1 className='mb-4 text-2xl font-bold text-base-100'>
                 Work Experience
               </h1>
-
-              <Card
-                title='Internship'
-                location='PT. Sagara Asia Teknologi'
-                time='Jun 2022 - Aug 2022'
-              >
-                <ul className='ml-6 list-disc font-light'>
-                  <li>Web Hosting Service</li>
-                </ul>
-              </Card>
+              <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
+                <Card
+                  title='Internship'
+                  location='PT. INSAN MEMBANGUN BANGSA'
+                  time='Aug 2022 - Now '
+                >
+                  <ul className='ml-6 list-disc font-light'>
+                    <li>
+                      Build api based apps woishop app and i am do all mvp tasks
+                      within 1 month
+                    </li>
+                    <li>
+                      Build api based apps dapurfresh app and as a team leader I
+                      divide the MVP tasks to members within 1 month
+                    </li>
+                  </ul>
+                </Card>
+                <Card
+                  title='Internship'
+                  location='PT. Sagara Asia Teknologi'
+                  time='Jun 2022 - Sep 2022'
+                >
+                  <ul className='ml-6 list-disc font-light'>
+                    <li>
+                      Learned about web 3.0 and how to create Smart Contracts on
+                      the Etherium Network
+                    </li>
+                    <li>
+                      Developing Projects New REST API features to improve web
+                      3.0 developers and builds Generating source code with
+                      Solidity within 2 week
+                    </li>
+                    <li>Creating a TECHSPACE project within 1 month </li>
+                  </ul>
+                </Card>
+              </div>
             </motion.div>
             <motion.div
               variants={variants}
