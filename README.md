@@ -9,7 +9,7 @@
   <p align="center">
     Portfolio website that I built using my current preferred tech stack
     <br />
-    <a href="https://syaifulmaula-portfolio.herokuapp.com/">View Demo</a>
+    <a href="https://porto-syaiful-maula.vercel.app/">View Demo</a>
   </p>
 </div>
 
