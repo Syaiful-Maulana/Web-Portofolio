@@ -26,6 +26,12 @@ export const skills: ISkills[] = [
     isMainSkill: true,
   },
   {
+    title: 'Laravel',
+    icon: 'laravel.svg',
+    type: 'PHP Framework',
+    isMainSkill: true,
+  },
+  {
     title: 'Bootstrap',
     icon: 'bootstrap.svg',
     type: 'CSS Framework',
@@ -44,14 +50,28 @@ export const skills: ISkills[] = [
     isMainSkill: true,
   },
   {
+    title: 'CodeIgniter',
+    icon: 'codeigniter.svg',
+    type: 'PHP Framework',
+    isMainSkill: true,
+  },
+  {
     title: 'PHP',
     icon: 'php.svg',
     type: 'Language',
+    isMainSkill: true,
+  },
+  {
+    title: 'Golang',
+    icon: 'golang.svg',
+    type: 'Language',
+    isMainSkill: true,
   },
   {
     title: 'EJS',
     icon: 'ejs.svg',
     type: 'Language',
+    isMainSkill: true,
   },
   {
     title: 'Express',

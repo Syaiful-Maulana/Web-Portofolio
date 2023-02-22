@@ -27,12 +27,20 @@ export const projects: Project[] = [
   },
 
   {
+    name: 'Invoice API',
+    description: 'REST API ',
+    type: ProjectType.API,
+    tags: ['Golang', 'ECHO', 'GORM'],
+    picture: 'invoice.jpg',
+    repoLink: 'https://github.com/Syaiful-Maulana/api-invoice',
+  },
+  {
     name: 'DapurFresh API',
     description: 'REST API ',
     type: ProjectType.API,
     tags: ['NodesJs', 'ExpressJs', 'Sequelize'],
     picture: 'dapurbe.jpg',
-    repoLink: '#',
+    repoLink: 'https://github.com/Syaiful-Maulana/api-dapurfresh',
   },
   {
     name: 'Loak ID API',

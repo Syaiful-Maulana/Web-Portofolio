@@ -155,28 +155,37 @@ const Resume = () => {
               </h1>
               <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
                 <Card
-                  title='Senior High School'
-                  location='SMA NU AL - MA`RUF KUDUS '
-                  jurusan='NATURAL SCIENCE'
-                  time='2016 - 2019'
+                  title='Bootcamp'
+                  location='Alterra Academy'
+                  jurusan='Backend Javascript'
+                  time='Aug 2022 - Des 2022'
                 >
                   <div className='min-h-[200px] text-base-content'>
-                    <Chart
-                      type='line'
-                      ref={chartSMKref}
-                      data={{
-                        labels: ['1', '2', '3', '4', '5', '6'],
-                        datasets: [
-                          {
-                            ...SMKDataSets,
-                            label: 'Grade Point',
-                            data: nilaiSemester,
-                            pointHitRadius: 10,
-                          },
-                        ],
-                      }}
-                      options={chartSMKOptions}
-                    />
+                    <ul className='ml-6 list-disc font-light'>
+                      <li>Learning REST API with Golang</li>
+                      <li>Database Management System</li>
+                      <li>ORM(Object Relational Mapping)</li>
+                      <li>Tenting</li>
+                      <li>Cloud and Server</li>
+                      <li>Invoice Website Development</li>
+                    </ul>
+                  </div>
+                </Card>
+                <Card
+                  title='Bootcamp'
+                  location='Binar Academy'
+                  jurusan='Backend Javascript'
+                  time='Feb 2022 - Jul 2022'
+                >
+                  <div className='min-h-[200px] text-base-content'>
+                    <ul className='ml-6 list-disc font-light'>
+                      <li>Learning REST API with Node Js</li>
+                      <li>Database Management System</li>
+                      <li>ORM(Object Relational Mapping)</li>
+                      <li>Tenting</li>
+                      <li>Cloud and Server</li>
+                      <li>E-commerce Website Development</li>
+                    </ul>
                   </div>
                 </Card>
                 <Card
@@ -202,23 +211,6 @@ const Resume = () => {
                       }}
                       options={chartKuliahOptions}
                     />
-                  </div>
-                </Card>
-                <Card
-                  title='Bootcamp'
-                  location='Binar Academy'
-                  jurusan='Backend Javascript'
-                  time='Feb 2022 - Jul 2022'
-                >
-                  <div className='min-h-[200px] text-base-content'>
-                    <ul className='ml-6 list-disc font-light'>
-                      <li>Learning REST API with Node Js</li>
-                      <li>Database Management System</li>
-                      <li>ORM(Object Relational Mapping)</li>
-                      <li>Tenting</li>
-                      <li>Cloud and Server</li>
-                      <li>E-commerce Website Development</li>
-                    </ul>
                   </div>
                 </Card>
               </div>
