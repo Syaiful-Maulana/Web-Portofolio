@@ -12,7 +12,7 @@ const ProjectCard = ({
   description,
   tags,
   picture,
-  repoLink,
+  // repoLink,
   isFirstRender,
 }: IProjectCard) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -76,7 +76,7 @@ const ProjectCard = ({
                 trackEvent(_name + '-repo-link', 'click')
               }
             >
-              <Link href={repoLink}>
+              {/* <Link href={repoLink}>
                 <a
                   //  data-theme='dracula'
                   className={`group btn btn-outline btn-xs mt-1.5 ${
@@ -93,7 +93,7 @@ const ProjectCard = ({
                   </svg>
                   Open in GitHub
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

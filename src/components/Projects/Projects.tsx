@@ -72,7 +72,7 @@ const Projects = () => {
                         description={value.description}
                         tags={value.tags}
                         picture={value.picture}
-                        repoLink={value.repoLink}
+                        // repoLink={value.repoLink}
                         key={value.name}
                         isFirstRender={isFirstRender}
                       />

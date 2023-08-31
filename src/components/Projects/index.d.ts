@@ -22,7 +22,7 @@ export interface IProjectCard {
   type: 'Website' | 'CLI' | 'Misc' | string;
   tags: string[];
   picture: string;
-  repoLink: string;
+  // repoLink: string;
   isFirstRender: boolean;
 }
 
@@ -40,5 +40,5 @@ export interface Project {
   type: ProjectType;
   tags: string[];
   picture: string;
-  repoLink: string;
+  // repoLink: string;
 }
