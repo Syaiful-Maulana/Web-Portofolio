@@ -111,7 +111,7 @@ const Resume = () => {
                 <Card
                   title='Internship'
                   location='PT. INSAN MEMBANGUN BANGSA'
-                  time='Aug 2022 - Now '
+                  time='Aug 2022 - Dec 2022'
                 >
                   <ul className='ml-6 list-disc font-light'>
                     <li>
@@ -192,14 +192,14 @@ const Resume = () => {
                   title='University'
                   location='Universitas Muria Kudus'
                   jurusan='Informatics Engineering'
-                  time='2019 - Now'
+                  time='2019 - 2023'
                 >
                   <div className='min-h-[200px] text-base-content'>
                     <Chart
                       type='line'
                       ref={chartKuliahref}
                       data={{
-                        labels: ['1', '2', '3', '4', '5'],
+                        labels: ['1', '2', '3', '4', '5', '6', '7', '8'],
                         datasets: [
                           {
                             ...kuliahDataSets,

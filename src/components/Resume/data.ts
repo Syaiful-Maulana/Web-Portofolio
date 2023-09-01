@@ -1,4 +1,4 @@
-export const ips = [3.73, 3.79, 3.76, 3.93, 3.96];
+export const ips = [3.73, 3.79, 3.76, 3.93, 3.96, 3.88, 3.88, 4.0];
 const ipk: string = (
   ips.reduce((acc, cur) => acc + cur, 0) / ips.length
 ).toFixed(2);
