@@ -109,6 +109,18 @@ const Resume = () => {
               </h1>
               <div className='grid grid-cols-1 gap-4 md:grid-cols-2'>
                 <Card
+                  title='Fulltime'
+                  location='Dealjava'
+                  time='Sep 2023 - now'
+                >
+                  <ul className='ml-6 list-disc font-light'>
+                    <li>building api for point of sales clients</li>
+                    <li>
+                      Building backoffice api to manage point of sales system
+                    </li>
+                  </ul>
+                </Card>
+                <Card
                   title='Internship'
                   location='PT. INSAN MEMBANGUN BANGSA'
                   time='Aug 2022 - Dec 2022'
