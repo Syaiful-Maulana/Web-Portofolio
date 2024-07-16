@@ -111,12 +111,28 @@ const Resume = () => {
                 <Card
                   title='Fulltime'
                   location='Dealjava'
-                  time='Sep 2023 - now'
+                  time='Aug 2023 - now'
                 >
                   <ul className='ml-6 list-disc font-light'>
-                    <li>building api for point of sales clients</li>
                     <li>
-                      Building backoffice api to manage point of sales system
+                      Collaborated with team members to identify and fix
+                      software bugs, ensuring code integrity and optimal
+                      functionality through rigorous testing.
+                    </li>
+                    <li>
+                      Led the integration of new features in company
+                      applications, enhancing performance and user experience
+                      based on feedback.
+                    </li>
+                    <li>
+                      Integrated payment gateways like Midtrans, Xendit, and BCA
+                      Development to ensure secure and efficient transaction
+                      processing.
+                    </li>
+                    <li>
+                      Designed and implemented WebSocket with Golang and Echo to
+                      support real-time applications and improve system
+                      responsiveness.
                     </li>
                   </ul>
                 </Card>
