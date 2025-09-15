@@ -12,8 +12,6 @@ const getAge = (dateString: string) => {
 export const about = {
   picture: '/avatar.jpg',
   description: [
-    `I live in Kudus, Indonesia. I'm an Informatics Student from Universitas Muria Kudus. `,
-    'My main tech stack is Golang,Node.js, Laravel, PostgreSQL, MySQL, Redis, and MongoDB',
-    'Experienced Software Engineer with extensive skills in both backend and frontend technologies, specializing in GO, PHP, JavaScript, Laravel, Node.js, SQL, and NoSQL. Adept at developing and optimizing high-performance software applications. Possess strong frontend capabilities in HTML, CSS, JavaScript, and jQuery, with a proven ability to create engaging and responsive user interfaces. Currently focusing on advancing my career in backend and web development.',
+    `Experienced Backend Engineer with over 3 years of hands-on experience in designing, developing, and optimizing high-performance software applications. Proficient in backend technologies and programming languages including Go, PHP, JavaScript, Laravel, Node.js, as well as relational and non-relational databases (SQL and NoSQL). Demonstrated ability to build scalable system architectures, develop robust APIs, and improve application performance in large-scale production environments.`
   ],
 };
